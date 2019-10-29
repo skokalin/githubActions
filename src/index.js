@@ -6,6 +6,7 @@ function component() {
     // Lodash, currently included via a script, is required for this line to work
     element.innerHTML = _.join(['Hello', 'webpack'], ' ');
     element.innerHTML = 'release49';
+    element.innerHTML = 'latestMaster';
     return element;
 }
 
